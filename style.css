@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Poppins:wght@400;500;600;700&family=Red+Hat+Display:ital,wght@0,500;0,900;1,500;1,700&display=swap');
+
+
+body{
+   
+    font-family: 'Karla', sans-serif; 
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    
+}
+
+ .wrapper{
+    margin: 0 auto;
+    width: 50%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    
+      
+}
+
+.top{
+    padding: 1.2rem 1.2rem;
+    background-color: white;
+    grid-area: 1/1/2/3;
+   
+    
+}
+.join{
+    color: hsl(179, 62%, 43%);
+    font-weight: 400;
+}
+
+.hassle{
+    color: hsl(71, 73%, 54%);
+
+} 
+.gain{
+    color: hsl(218, 22%, 67%);
+}
+
+
+
+.left{
+    padding: 1.2rem 1.2rem;
+    background-color: hsl(179, 62%, 43%);  
+    grid-row: 2; 
+}
+
+.subs{
+    color: white;
+
+}
+
+.dollar{
+    color: white;
+    font-weight: 700;
+}
+
+.access{
+    color: white;
+}
+
+.only-one{
+    border: 1px 1px;
+    color: hsl(71, 73%, 54%);
+    border-radius: 2px;
+}
+
+.right{
+    background-color:hsl(179, 35%, 52%)  ; 
+    padding: 1.2rem 1.2rem;
+    grid-row: 2; 
+    
+    
+}
+
+.why{
+    color: white;
+    margin-bottom: 5px;
+    border-bottom: 4px;
+}
+
+.last-one{
+    color: white;
+}
+
+
+
+
+
+
+
